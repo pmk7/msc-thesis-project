@@ -1,0 +1,12 @@
+.venv
+.env
+venv/
+.idea/
+.pytest_cache
+data
+.DS_Store
+/__pycache__
+tests/__pycache__/test_db_connection.cpython-311-pytest-8.2.2.pyc
+src/data_access/repositories/sql/__pycache__/customer_repository.cpython-311.pyc
+src/data_access/models/__pycache__/customer.cpython-311.pyc
+src/data_access/db_config/__pycache__/database.cpython-311.pyc

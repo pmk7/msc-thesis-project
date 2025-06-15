@@ -25,8 +25,8 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.normpath(os.path.join(SCRIPT_DIR, f"../../results/{record_count}/sql_{record_count}_v2"))
 os.makedirs(output_dir, exist_ok=True)
 
-# customer_id = "0af5bdfd-6e38-42bf-9925-ecd6fb2410be"
-# new_email = "updated_email@example.com"
+customer_id = "0af5bdfd-6e38-42bf-9925-ecd6fb2410be"
+new_email = "updated_email@example.com"
 
 
 @sql_connection(commit=True)
